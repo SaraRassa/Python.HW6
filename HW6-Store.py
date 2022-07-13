@@ -88,7 +88,7 @@ def load():
         Product_info= ProductList[i].split(',')
         mydict={}
         mydict['id']=Product_info[0]
-        mydict['name']=Product_info[0]
+        mydict['name']=Product_info[1]
         mydict['price']=Product_info[2]
         mydict['count']=Product_info[3]
         PRODUCTS.append(mydict)
